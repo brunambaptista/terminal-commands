@@ -1,4 +1,4 @@
-<b>Terminal basics<\b>
+## Terminal basics
 
 ls - shows whats inside the folder
 ls -a - includes hidden files
@@ -26,14 +26,14 @@ mkdir dir1 - creates a new directory
 rm -R dir1 - deletes directory and contents
 sudo rm -rf dir1 - deletes directory and contents
 
-`Search mode`
+### Search mode
 grep pattern1 - search for all lines that contains the pattern
 grep pattern1 file1
 grep -r pattern1 dir1
 grep -v pattern1 file1 - all lines that do not contain the pattern
 ^R - to search an old command based on the beginning
 
-`Editing mode`
+### Editing mode
 vim file1 - to enter edit mode
   i - insert mode
   esc - returns to command mode
@@ -41,7 +41,7 @@ vim file1 - to enter edit mode
   :q! - quit vim without saving
   :wq - save then quit
   
-`Chaining commands`
+### Chaining commands
 [command-a]; [command-b] - runs command A and then B, regardless of success of A
 [command-a] && [command-b] - runs command B if A succeeded
 [command-a] || [command-b] - runs command B if A failed
